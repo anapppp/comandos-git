@@ -34,6 +34,16 @@ Comandos                | Descrição
 
 ##  Status no GIT
 
-> **not staged:** quando o usuário alterou arquivos mas não adicionou para o stage 
+- **not staged:** quando o usuário alterou arquivos mas não adicionou para o stage 
+- **staged:** quando a pasta ou arquivo já foi adicionado ao stage pelo `git add`, e está pronto para comitar
 
-> **staged:** quando a pasta ou arquivo já foi adicionado ao stage pelo `git add`, e está pronto para comitar 
+## Padrões de commits
+- feat: para uma nova funcionalidade ou recurso adicionado.
+- fix: para uma correção de bug.
+- docs: para alterações na documentação.
+- style: para alterações que não afetam o comportamento do código (por exemplo, formatação, ponto e vírgula ausente).
+- refactor: para alterações no código que não corrigem bugs nem adicionam novos recursos.
+- test: para adicionar testes ausentes ou corrigir testes existentes.
+- chore: para tarefas de manutenção ou trabalho de casa.
+- perf: para melhorias de desempenho.
+
