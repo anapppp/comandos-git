@@ -30,6 +30,9 @@ Comandos                | Descrição
 `git merge nome_da_sua_branch`  |  faz o merge de outra branch com a atual (cheque a branch que vc está, e se ela está atualizada com o servidor remoto)
 `git checkout <nome da branch>` | volta para o estado da sua branch atual
 `git reset --hard <hash do commit>` | descarta alterações e volta para um commit anterior
+`git stash` | Remove as modificações salvas da área de trabalho, deixando-a limpa como se estivesse no estado do último commit.
+`git stash -u ` | Inclui utracked files.
+
 
 
 ##  Status no GIT
